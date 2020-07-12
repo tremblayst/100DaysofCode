@@ -6,4 +6,6 @@
 * I will save all code and documentable progress to this public git repo.
 
 ### Day 1 
+###### 2 hrs
 * Setup github repository
+* Completed Trailhead - Quick Start: Visual Studio Code for Salesforce Development
