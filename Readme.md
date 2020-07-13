@@ -9,3 +9,7 @@
 ###### 2 hrs
 * Setup github repository
 * Completed Trailhead - Quick Start: Visual Studio Code for Salesforce Development
+
+### Day 2
+###### 2 hrs
+* Completed Trailhead - Apex & .NET Basics
