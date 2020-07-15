@@ -13,3 +13,8 @@
 ### Day 2
 ###### 2 hrs
 * Completed Trailhead - Apex & .NET Basics
+
+### Day 3
+###### 1 hr
+* Completed Trailhead - Several Exam Prep for Platform Developer 1
+* Put together a Trailmix to help plan my future training 
