@@ -17,4 +17,8 @@
 ### Day 3
 ###### 1 hr
 * Completed Trailhead - Several Exam Prep for Platform Developer 1
-* Put together a Trailmix to help plan my future training 
+* Put together a Trailmix to help plan my future training
+
+### Day 4
+###### 2 hrs
+* Completed Trailhead - Async Apex
