@@ -28,3 +28,7 @@
 * Completed Trailhead - Developer Console Basics
 * Completed Trailhead - Lightning Web Component Basics
 * Completed Trailhead - Lightning Experience Development
+
+### Day 6
+###### 2 hrs
+* Completed Trailhead - Apex Integration Services
