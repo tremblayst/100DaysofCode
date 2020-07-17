@@ -22,3 +22,9 @@
 ### Day 4
 ###### 2 hrs
 * Completed Trailhead - Async Apex
+
+### Day 5
+###### 2 hrs
+*Completed Trailhead - Developer Console Basics
+*Completed Trailhead - Lightning Web Component Basics
+*Completed Trailhead - Lightning Experience Development
