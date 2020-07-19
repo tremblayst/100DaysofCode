@@ -32,3 +32,7 @@
 ### Day 6
 ###### 2 hrs
 * Completed Trailhead - Apex Integration Services
+
+### Day 7
+###### 2 hrs
+* Started Apex Specialist superbadge - completed 1st challenge
