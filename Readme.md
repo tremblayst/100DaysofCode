@@ -36,3 +36,7 @@
 ### Day 7
 ###### 2 hrs
 * Started Apex Specialist superbadge - completed 1st challenge
+
+### Day 8
+###### 1 hr
+* Apex Specialist Superbadge - completed 2nd and 3rd challenge
