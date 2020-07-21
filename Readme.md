@@ -40,3 +40,7 @@
 ### Day 8
 ###### 1 hr
 * Apex Specialist Superbadge - completed 2nd and 3rd challenge
+
+### Day 9
+###### 2 hrs
+* Completed Apex Specialist Superbadge
