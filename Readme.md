@@ -44,3 +44,9 @@
 ### Day 9
 ###### 2 hrs
 * Completed Apex Specialist Superbadge
+
+### Day 10
+###### 1 hr
+* Completed Trailhead - Search Solution Basics
+* Completed Trailhead - Data Management
+* Completed Trailhead - Quick Start: Lightning Web Components
