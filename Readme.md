@@ -50,3 +50,13 @@
 * Completed Trailhead - Search Solution Basics
 * Completed Trailhead - Data Management
 * Completed Trailhead - Quick Start: Lightning Web Components
+
+### Day 11
+###### 2 hrs
+* Started Process Automation Specialist superbadge
+* Completed Trailhead - Aura Components Skills & Tools
+* Completed Trailhead - Aura Components Core Concepts
+* Completed Trailhead - Platform Development Basics
+* Completed Trailhead - Salesforce Maps Basics
+* Completed Trailhead - Database & .NET Basics
+* Completed Trailhead - Platform Events Basics
