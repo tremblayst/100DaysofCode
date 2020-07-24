@@ -60,3 +60,7 @@
 * Completed Trailhead - Salesforce Maps Basics
 * Completed Trailhead - Database & .NET Basics
 * Completed Trailhead - Platform Events Basics
+
+### Day 12
+###### 1 hr
+* Completed Trailhead - Leads & Opportunities for Lightning Experience
