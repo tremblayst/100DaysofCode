@@ -64,3 +64,8 @@
 ### Day 12
 ###### 1 hr
 * Completed Trailhead - Leads & Opportunities for Lightning Experience
+
+### Day 13
+###### 2 hrs
+* Completed Trailhead - Workflow Rule Migration
+* Process Automation Superbadge - completed 1st, 2nd, 3rd challenge
