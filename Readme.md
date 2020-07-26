@@ -68,4 +68,8 @@
 ### Day 13
 ###### 2 hrs
 * Completed Trailhead - Workflow Rule Migration
-* Process Automation Superbadge - completed 1st, 2nd, 3rd challenge
+* Process Automation Specialist superbadge - completed 1st, 2nd, 3rd challenge
+
+### Day 14
+###### 3 hrs
+* Completed Process Automation Specialist superbadge
