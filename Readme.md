@@ -73,3 +73,7 @@
 ### Day 14
 ###### 3 hrs
 * Completed Process Automation Specialist superbadge
+
+### Day 15
+###### 1 hr
+* Completed Trailhead - Injection Vulnerability Prevention
