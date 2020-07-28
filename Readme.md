@@ -77,3 +77,7 @@
 ### Day 15
 ###### 1 hr
 * Completed Trailhead - Injection Vulnerability Prevention
+
+### Day 16
+###### 2 hrs
+* Started a Xamarin.iOS project to use ARKit to render models
