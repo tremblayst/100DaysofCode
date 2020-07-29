@@ -81,3 +81,7 @@
 ### Day 16
 ###### 2 hrs
 * Started a Xamarin.iOS project to use ARKit to render models
+
+### Day 17
+###### 3 hrs
+* Got a model loading into ARKit working on development device
