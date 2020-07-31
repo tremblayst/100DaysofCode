@@ -85,3 +85,13 @@
 ### Day 17
 ###### 3 hrs
 * Got a model loading into ARKit working on development device
+
+### Day 18
+###### 2 hrs
+* Reviewed some old Xamarin Projects.
+* Researched ARKit plane detection.
+
+### Day 19
+###### 3 hrs
+* Got a working sample of plane detection in ARKit.
+* Researching touch events in regards to planes in ARKit
