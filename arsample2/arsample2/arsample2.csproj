@@ -109,6 +109,11 @@
     <Compile Include="GameViewController.designer.cs">
       <DependentUpon>GameViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="SceneViewDelegate.cs" />
+    <Compile Include="PlaneNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="overlay_grid.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

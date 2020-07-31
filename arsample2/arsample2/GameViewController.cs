@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 using CoreGraphics;
 using SceneKit;
 using UIKit;
@@ -8,7 +8,7 @@ using ARKit;
 
 namespace arsample2
 {
-    public partial class GameViewController : UIViewController, IARSCNViewDelegate
+    public partial class GameViewController : UIViewController
     {
         public ARSCNView SceneView
         {
@@ -35,7 +35,7 @@ namespace arsample2
 			Xamarin.Calabash.Start();
 #endif
 
-            SceneView.Delegate = this;
+            SceneView.Delegate = new SceneViewDelegate();
 
             // create a new scene
             var scene = SCNScene.FromFile("art.scnassets/ship");
@@ -100,9 +100,12 @@ namespace arsample2
             // Create a session configuration
             var configuration = new ARWorldTrackingConfiguration
             {
-                PlaneDetection = ARPlaneDetection.Horizontal,
+                PlaneDetection = ARPlaneDetection.Horizontal | ARPlaneDetection.Vertical,
+                WorldAlignment = ARWorldAlignment.GravityAndHeading,
                 LightEstimationEnabled = true
             };
+
+            SceneView.DebugOptions = ARSCNDebugOptions.ShowFeaturePoints;
 
             // Run the view's session
             SceneView.Session.Run(configuration, ARSessionRunOptions.ResetTracking);
