@@ -95,3 +95,8 @@
 ###### 3 hrs
 * Got a working sample of plane detection in ARKit.
 * Researching touch events in regards to planes in ARKit
+
+### Day 20
+###### 2 hrs
+* Added a touch handler to change the color of planes in ARKit
+* Researching how to use SpriteKit to overlay interface over Scene.

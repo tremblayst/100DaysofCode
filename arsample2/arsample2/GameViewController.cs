@@ -5,6 +5,7 @@ using CoreGraphics;
 using SceneKit;
 using UIKit;
 using ARKit;
+using Foundation;
 
 namespace arsample2
 {
@@ -38,9 +39,9 @@ namespace arsample2
             SceneView.Delegate = new SceneViewDelegate();
 
             // create a new scene
-            var scene = SCNScene.FromFile("art.scnassets/ship");
+            //var scene = SCNScene.FromFile("art.scnassets/ship");
 
-            SceneView.Scene = scene;
+            //SceneView.Scene = scene;
 
             // create and add a camera to the scene
             //var cameraNode = SCNNode.Create();
@@ -112,10 +113,10 @@ namespace arsample2
 
 
             // Find the ship and position it just in front of the camera
-            var ship = SceneView.Scene.RootNode.FindChildNode("ship", true);
+            //var ship = SceneView.Scene.RootNode.FindChildNode("ship", true);
 
 
-            ship.Position = new SCNVector3(2f, -2f, -9f);
+            //ship.Position = new SCNVector3(2f, -2f, -9f);
             //HACK: to see the jet move (circle around the viewer in a roll), comment out the ship.Position line above
             // and uncomment the code below (courtesy @lobrien)
 
@@ -151,42 +152,31 @@ namespace arsample2
         }
 
 
-        void HandleTap(UIGestureRecognizer gestureRecognize)
+        public override void TouchesEnded(NSSet touches, UIEvent evt)
         {
-            // retrieve the SCNView
-            var scnView = (SCNView)View;
+            base.TouchesEnded(touches, evt);
 
-            // check what nodes are tapped
-            CGPoint p = gestureRecognize.LocationInView(scnView);
-            SCNHitTestResult[] hitResults = scnView.HitTest(p, (SCNHitTestOptions)null);
-
-            // check that we clicked on at least one object
-            if (hitResults.Length > 0)
+            if (touches.AnyObject is UITouch touch)
             {
-                // retrieved the first clicked object
-                SCNHitTestResult result = hitResults[0];
+                var point = touch.LocationInView(SceneView);
 
-                // get its material
-                SCNMaterial material = result.Node.Geometry.FirstMaterial;
+                var hitTestOptions = new SCNHitTestOptions();
 
-                // highlight it
-                SCNTransaction.Begin();
-                SCNTransaction.AnimationDuration = 0.5f;
+                var hits = SceneView.HitTest(point, hitTestOptions);
+                var hit = hits.FirstOrDefault();
 
-                // on completion - unhighlight
-                SCNTransaction.SetCompletionBlock(() =>
-                {
-                    SCNTransaction.Begin();
-                    SCNTransaction.AnimationDuration = 0.5f;
+                if (hit == null)
+                    return;
 
-                    material.Emission.Contents = UIColor.Black;
+                var node = hit.Node;
 
-                    SCNTransaction.Commit();
-                });
+                if (node == null)
+                    return;
 
-                material.Emission.Contents = UIColor.Red;
+                var redMaterial = new SCNMaterial();
+                redMaterial.Diffuse.Contents = UIColor.Purple;
 
-                SCNTransaction.Commit();
+                node.Geometry.Materials = new SCNMaterial[] { redMaterial };
             }
         }
     }
