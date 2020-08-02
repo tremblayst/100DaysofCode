@@ -100,3 +100,7 @@
 ###### 2 hrs
 * Added a touch handler to change the color of planes in ARKit
 * Researching how to use SpriteKit to overlay interface over Scene.
+
+### Day 21
+###### 1 hr
+* Started Lightning Web Components and Salesforce Data 
