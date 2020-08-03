@@ -104,3 +104,9 @@
 ### Day 21
 ###### 1 hr
 * Started Lightning Web Components and Salesforce Data 
+
+### Day 22
+###### 1 hr
+* Completed Trailhead - Trailhead Playground Management
+* Completed Trailhead - Trailhead Basics
+* Completed Trailhead - API Basics
