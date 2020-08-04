@@ -110,3 +110,7 @@
 * Completed Trailhead - Trailhead Playground Management
 * Completed Trailhead - Trailhead Basics
 * Completed Trailhead - API Basics
+
+### Day 23
+###### 1 hr
+* Completed Trailhead - Lightning Web Components and Salesforce Data
